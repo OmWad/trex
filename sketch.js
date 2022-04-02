@@ -2,7 +2,7 @@
 var trex ,trex_running , ground;
 function preload(){
   trex_running=loadAnimation("trex1.png","trex3.png","trex4.png")
- //ground_moving=loadImage("ground2.png")
+
 }
 
 function setup(){
@@ -11,7 +11,7 @@ function setup(){
   trex.addAnimation("running",trex_running)
   trex.scale=0.5;
  ground=createSprite(100,200,800,20)
-// ground.loadImage("moving",ground_moving)
+
 }
 
 function draw(){
